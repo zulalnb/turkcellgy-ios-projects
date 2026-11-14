@@ -4,13 +4,15 @@ Bu repository, **Turkcell Geleceği Yazanlar Swift ile iOS Programlama** eğitim
 
 Her uygulama, eğitimlerde ele alınan konuları pratik olarak uygulamak amacıyla oluşturulmuş bağımsız bir Xcode projesidir. Projeler, eğitim seviyelerine ve ilgili ders konularına göre organize edilmiştir.
 
+**Eğitim Kaynağı:** [Swift ile iOS Programlama – Turkcell Geleceği Yazanlar](https://gelecegiyazanlar.turkcell.com.tr/egitimler/swift-ile-ios-programlama)
+
 ## Eğitimler
 
 | Eğitim | Açıklama |
 | --- | --- |
 | [iOS Programlama 101](#ios-programlama-101) | Giriş, tasarım işlemleri, standart yapılar ve kullanımları |
 | [iOS Programlama 201](#ios-programlama-201) | Listeleme yapıları, özel hücre tasarımı ve Collection View kullanımı |
-| [iOS Programlama 301](#ios-programlama-301) | Depolama, internet tabanlı işlemler ve konum işlemleri *(yakında)* |
+| [iOS Programlama 301](#ios-programlama-301) | Veri saklama, dosya yönetimi, JSON işleme, Firebase, konum ve uygulama mimarisi |
 
 ## iOS Programlama 101
 
@@ -69,7 +71,37 @@ Her uygulama, eğitimlerde ele alınan konuları pratik olarak uygulamak amacıy
 
 ## iOS Programlama 301
 
-*Yakında eklenecek.*
+301 eğitimi kapsamında geliştirilen uygulamalar ve ilgili ders konuları aşağıda listelenmiştir.
+
+| App | Konu |
+| --- | --- |
+| [Theme User Defaults](ThemeUserDefaults/) | User Defaults Lab |
+| [Todo List Core Data](TodoListCoreData/) | Core Data |
+| [Contact Manager Core Data](ContactManagerCoreData/) | Core Data Lab |
+| [File Manager Basics](FileManagerBasics/) | Dosya Yönetimi |
+| [Swifty JSON Demo](SwiftyJSONDemo/) | CocoaPods Lab |
+| [Service Hub](ServiceHub/) | Firebase Lab |
+| [Maps Basics](MapsBasics/) | İleri Lokasyon İşlemleri |
+| [Keychain Basics](KeychainBasics/) | Keychain İşlemleri |
+| [Notification Center Basics](NotificationCenterBasics/) | Notification Center İşlemleri |
+| [Contacts MVVM](ContactsMVVM/) | Contacts |
+
+### Ele Alınan Konular
+
+- UserDefaults kullanarak kullanıcı tercihlerini ve tema ayarlarını saklama
+- Core Data ile kalıcı veri saklama ve CRUD işlemleri
+- FileManager ile dosya ve dizin işlemlerini yönetme
+- SwiftyJSON kullanarak JSON verilerini ayrıştırma ve model nesnelerine dönüştürme
+- Üçüncü taraf kütüphaneleri projeye entegre etme
+- Firebase Authentication ile kullanıcı kaydı oluşturma
+- Firebase Realtime Database üzerinden veri okuma ve yazma
+- Core Location ile cihaz konumunu ve konum izinlerini yönetme
+- MapKit ve Google Maps SDK ile harita görüntüleme ve konum işaretleme
+- Keychain Services kullanarak hassas verileri güvenli şekilde saklama ve yönetme
+- NotificationCenter ile uygulama içi bildirimleri ve sistem olaylarını dinleme
+- UserNotifications framework ile yerel bildirim oluşturma
+- MVVM mimarisi ile Model, View ve ViewModel sorumluluklarını ayırma
+- UITableView ve ViewModel entegrasyonu
 
 ## Projeleri Açma
 
