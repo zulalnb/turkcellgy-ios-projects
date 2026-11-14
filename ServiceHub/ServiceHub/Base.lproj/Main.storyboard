@@ -31,7 +31,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="htg-34-vjD" kind="show" id="iwu-I8-bDb"/>
+                                    <action selector="signInButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UMy-zK-iTP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -49,6 +49,7 @@
                     <connections>
                         <outlet property="serviceProvidersTableView" destination="940-UG-vW6" id="t8p-Vq-cwV"/>
                         <outlet property="signInButton" destination="wZt-Eb-vVS" id="Z93-az-S4P"/>
+                        <segue destination="htg-34-vjD" kind="show" identifier="showSignIn" id="Erx-yc-Lm4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

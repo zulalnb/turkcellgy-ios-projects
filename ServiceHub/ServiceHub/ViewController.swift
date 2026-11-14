@@ -28,31 +28,60 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        if Auth.auth().currentUser != nil {
-            signInButton.isHidden = true
-        }
+        Database
+            .database()
+            .reference()
+            .child("users")
+            .observe(.value) { snapshot in
+                var user: User
+                
+                if self.users == nil {
+                    self.users = []
+                } else {
+                    self.users?.removeAll()
+                }
+                
+                for userSnapshot in snapshot.children {
+                    let value = (userSnapshot as! DataSnapshot).value as! NSDictionary
+                    
+                    user = User()
+                    user.firstName = value["firstName"] as? String
+                    user.lastName = value["lastName"] as? String
+                    user.serviceCategory = value["serviceCategory"] as? String
+                    
+                    self.users?.append(user)
+                }
+                self.serviceProvidersTableView.reloadData()
+            }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        updateSignInButton()
+    }
+    
+    func updateSignInButton() {
+        var configuration = signInButton.configuration
         
-        Database.database().reference().child("users").observe(.value) { snapshot in
-            var user: User
-            
-            if self.users == nil {
-                self.users = []
-            } else {
-                self.users?.removeAll()
-            }
-            
-            for userSnapshot in snapshot.children {
-                let value = (userSnapshot as! DataSnapshot).value as! NSDictionary
-                
-                user = User()
-                user.firstName = value["firstName"] as? String
-                user.lastName = value["lastName"] as? String
-                user.serviceCategory = value["serviceCategory"] as? String
-                
-                self.users?.append(user)
-            }
-            self.serviceProvidersTableView.reloadData()
-        }
+        configuration?.title = Auth.auth().currentUser == nil
+        ? "Giriş Yap"
+        : "Çıkış Yap"
+        
+        signInButton.configuration = configuration
+    }
+    
+    func showAlert(message: String) {
+        let alert = UIAlertController(
+            title: "ServiceHub",
+            message: message,
+            preferredStyle: .alert
+        )
+        
+        alert.addAction(
+            UIAlertAction(title: "OK", style: .default)
+        )
+        
+        present(alert, animated: true)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -64,7 +93,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = Bundle.main.loadNibNamed("ServiceProviderTableViewCell", owner: self, options: nil)?.first as! ServiceProviderTableViewCell
+        let cell = Bundle.main.loadNibNamed("ServiceProviderTableViewCell",
+                                            owner: self,
+                                            options: nil)?.first as! ServiceProviderTableViewCell
         
         let user = users![indexPath.row]
         
@@ -73,6 +104,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         return cell
     }
+    
+    @IBAction func signInButtonTapped(_ sender: Any) {
+        if Auth.auth().currentUser != nil {
+            do {
+                try Auth.auth().signOut()
+                updateSignInButton()
+            } catch {
+                showAlert(message: error.localizedDescription)
+            }
+        } else {
+            performSegue(
+                withIdentifier: "showSignIn",
+                sender: self
+            )
+        }
+    }
+    
     
     
 }
