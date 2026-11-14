@@ -34,7 +34,6 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="documentPickerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x4B-eb-Pcu"/>
-                                    <action selector="fileOperationsButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XeM-jb-5Ra"/>
                                 </connections>
                             </button>
                         </subviews>

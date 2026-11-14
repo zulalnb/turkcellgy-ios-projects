@@ -61,7 +61,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext.delete(contacts![indexPath.row])
+            (UIApplication.shared.delegate as! AppDelegate)
+                .persistentContainer
+                .viewContext
+                .delete(contacts![indexPath.row])
             
             fetchContacts()
         }
@@ -73,7 +76,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         fetchRequest.sortDescriptors = [NSSortDescriptor(key: "firstName", ascending: true)]
         
         do {
-            contacts = try (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext.fetch(fetchRequest)
+            contacts = try (UIApplication.shared.delegate as! AppDelegate)
+                .persistentContainer
+                .viewContext
+                .fetch(fetchRequest)
             
             contactsTableView.reloadData()
         } catch {

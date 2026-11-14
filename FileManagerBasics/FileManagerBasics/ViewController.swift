@@ -17,11 +17,15 @@ class ViewController: UIViewController, UIDocumentPickerDelegate {
     // Dosya Oluşturma Yazma Okuma
     // Dosya uygulama içinde oluşturulur ve okunur.
     @IBAction func fileOperationsButtonTapped(_ sender: Any) {
-        if let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
+        if let directoryURL = FileManager.default.urls(for: .documentDirectory,
+                                                       in: .userDomainMask).first {
             let fileName = "fileName.txt"
             let fileURL = directoryURL.appendingPathComponent(fileName)
             
-            // let tempFileURL = URL(fileURLWithPath: "fileName", relativeTo: directoryURL).appendingPathExtension("txt")
+            // let tempFileURL = URL(
+            //     fileURLWithPath: "fileName",
+            //     relativeTo: directoryURL
+            // ).appendingPathExtension("txt")
             
             let text = "Dosya içeriği"
             
@@ -49,7 +53,10 @@ class ViewController: UIViewController, UIDocumentPickerDelegate {
     // Dosyalara erişim adımlar halinde iOS sistemi üzerinden yapılır.
     // Bunun için DocumentPicker yapısı kullanılır.
     @IBAction func documentPickerButtonTapped(_ sender: Any) {
-        let documentPickerViewController = UIDocumentPickerViewController(forOpeningContentTypes: [.plainText], asCopy: true)
+        let documentPickerViewController = UIDocumentPickerViewController(
+            forOpeningContentTypes: [.plainText],
+            asCopy: true
+        )
         
         documentPickerViewController.delegate = self
         
