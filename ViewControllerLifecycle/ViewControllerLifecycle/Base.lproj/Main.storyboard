@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="25408" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="25407"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ViewControllerLifecycle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTh-Fz-jgW">
+                                <rect key="frame" x="143" y="142" width="155" height="35"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="İkinci Ekrana Geç"/>
+                                <connections>
+                                    <segue destination="7Qc-SB-1gZ" kind="show" id="keh-9F-MIw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LTh-Fz-jgW" secondAttribute="trailing" constant="142" id="35u-SP-Jsr"/>
+                            <constraint firstItem="LTh-Fz-jgW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="7Fs-Dk-CAZ"/>
+                            <constraint firstItem="LTh-Fz-jgW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="8hh-8o-nJD"/>
+                            <constraint firstItem="LTh-Fz-jgW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="AC8-4N-ngI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LTh-Fz-jgW" secondAttribute="trailing" constant="142" id="Uz1-Ck-GoT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11" y="111"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="uE2-oY-EqC">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="7Qc-SB-1gZ" customClass="SecondViewController" customModule="ViewControllerLifecycle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="urc-Jm-pkY">
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8MT-Fa-2rE">
+                                <rect key="frame" x="175" y="142" width="91" height="35"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Geri Dön"/>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="7Qc-SB-1gZ" eventType="touchUpInside" id="Lm1-za-Ljo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Hy4-J3-9H4"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <constraints>
+                            <constraint firstItem="8MT-Fa-2rE" firstAttribute="leading" secondItem="Hy4-J3-9H4" secondAttribute="leading" constant="175" id="5kv-QU-RDh"/>
+                            <constraint firstItem="Hy4-J3-9H4" firstAttribute="trailing" secondItem="8MT-Fa-2rE" secondAttribute="trailing" constant="174" id="7df-82-hyY"/>
+                            <constraint firstItem="8MT-Fa-2rE" firstAttribute="top" secondItem="Hy4-J3-9H4" secondAttribute="top" constant="80" id="ZkC-zb-PSW"/>
+                            <constraint firstItem="Hy4-J3-9H4" firstAttribute="trailing" secondItem="8MT-Fa-2rE" secondAttribute="trailing" constant="174" id="bsj-0D-HqE"/>
+                            <constraint firstItem="8MT-Fa-2rE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Hy4-J3-9H4" secondAttribute="leading" symbolic="YES" id="y9U-gA-1Cf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="PjY-fb-IbU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fqh-5a-H8J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766" y="110"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.2196078431372549" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

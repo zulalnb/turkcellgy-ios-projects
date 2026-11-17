@@ -28,6 +28,8 @@ Bu projede:
 - `tfUsername` ve `tfPassword` IBOutlet bağlantılarıyla View Controller'a bağlanmıştır.
 - `btnLogin_TUI` IBAction metodu, giriş butonuna basıldığında çalışır.
 
+**İlgili teorik konu:** [Outlet ve Action Kavramları](../.documents/outlet-action.md)
+
 ### Conditional Statements
 
 Giriş işleminin kontrolü için iç içe `if-else` yapıları kullanılmıştır.

@@ -77,6 +77,8 @@ Butona basıldığında `getTime()` metodu çağrılır ve elde edilen tarih-saa
 }
 ```
 
+**İlgili teorik konu:** [Outlet ve Action Kavramları](../.documents/outlet-action.md)
+
 ### getTime() Metodu
 
 Tarih ve saat bilgisini tek bir noktadan elde edip biçimlendirmek için `getTime()` isimli yardımcı metot oluşturulmuştur.

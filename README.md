@@ -59,12 +59,20 @@ Her uygulama, eğitimlerde ele alınan konuları pratik olarak uygulamak amacıy
     <tr>
       <td colspan="2"><strong>Controllers</strong></td>
     </tr>
+     <tr>
+      <td><a href="NavigationStoryboard/">Navigation Storyboard</a></td>
+      <td>Navigation Controller - Toolbar</td>
+    </tr>
     <tr>
       <td><a href="TabbarControllerTutorial/">Tabbar Controller Tutorial</a></td>
       <td>Tabbar Controller</td>
     </tr>
     <tr>
       <td colspan="2"><strong>Kullanıcı Etkileşimleri</strong></td>
+    </tr>
+    <tr>
+      <td><a href="OutletActionBasics/">Outlet Action Basics</a></td>
+      <td>Outlet - Action Kavramları</td>
     </tr>
     <tr>
       <td><a href="EventTimeTracker/">Event Time Tracker</a></td>
@@ -79,8 +87,16 @@ Her uygulama, eğitimlerde ele alınan konuları pratik olarak uygulamak amacıy
       <td>Ekranlar Arası Veri Aktarımı Lab</td>
     </tr>
     <tr>
-      <td><a href="NavigationControllerTutorial/">Navigation Controller Tutorial</a></td>
+      <td><a href="View Controller Lifecycle/">View Controller Lifecycle</a></td>
+      <td>View Controller Yaşam Döngüsü</td>
+    </tr>
+    <tr>
+      <td><a href="NavigationFlow/">Navigation Flow</a></td>
       <td>Navigation Controller ile Geçişlerin Yönetilmesi</td>
+    </tr>
+    <tr>
+      <td><a href="LoginNavigationFlow/">Login Navigation Flow</a></td>
+      <td>Navigation Controller Lab</td>
     </tr>
     <tr>
       <td><a href="ProgrammaticLoginUI/">Programmatic Login UI</a></td>
@@ -96,7 +112,7 @@ Her uygulama, eğitimlerde ele alınan konuları pratik olarak uygulamak amacıy
     </tr>
     <tr>
       <td><a href="CameraPermissions/">Camera Permissions</a></td>
-      <td>Kamera İzin Kontrol Lab - 1</td>
+      <td>Kamera ve Galeri İzin Kontrol Lab</td>
     </tr>
   </tbody>
 </table>
