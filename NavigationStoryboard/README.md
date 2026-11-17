@@ -1,4 +1,4 @@
-# NavigationControllerTutorial
+# NavigationStoryboard
 
 ## Açıklama
 
@@ -7,6 +7,12 @@ Bu proje, UIKit kullanılarak iOS uygulamalarında `UINavigationController` yap�
 Uygulamada üç farklı ekran arasında geçiş yapılmaktadır. Navigation Controller, ekranların sırasını bir navigation stack içerisinde yönetir ve kullanıcıya önceki ekrana dönme imkânı sağlar.
 
 Ekran geçişleri Storyboard üzerinde tanımlanan Show Segue bağlantılarıyla gerçekleştirilmiştir.
+
+## Ekran Görüntüsü
+
+<p align="center">
+  <img src="./screenshots/navigation-storyboard.gif" alt="Navigation Storyboard Demo" width="300" />
+</p>
 
 ## Öğrenilen Konular
 

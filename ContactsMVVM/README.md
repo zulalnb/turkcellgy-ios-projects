@@ -10,7 +10,7 @@ MVVM, uygulamanın sorumluluklarını üç ayrı katmana bölen bir mimari yakla
 - **View (View Controller):** Kullanıcının göreceği veya etkileşimde bulunacağı kullanıcı arayüzünü temsil eder.
 - **ViewModel:** Model verilerini View tarafından kullanılabilecek şekilde hazırlar ve View ile Model arasındaki iletişimi yönetir.
 
-![MVVM Architecture](./assets/mvvm-architecture.jpg)
+![MVVM Mimarisi](./assets/mvvm-architecture.jpg)
 
 Basitçe MVVM yapısını, sınıf ve struct'ların yaptıkları işe ve sorumluluklarına göre gruplandırılması olarak düşünebiliriz. UI ile ilgili kodları View Controller içerisinde tutarken, veriyle ilgili sunum ve yönetim işlemlerini ViewModel içerisinde gerçekleştiririz. Böylece her katman kendi sorumluluğuna odaklanır ve kodun daha düzenli, anlaşılır ve bakımı kolay hale gelmesi sağlanır.
 

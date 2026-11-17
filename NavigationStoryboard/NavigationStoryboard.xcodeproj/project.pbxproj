@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		5D6BD246309299BF0096A0EA /* NavigationControllerTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationControllerTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6BD246309299BF0096A0EA /* NavigationStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5D6BD258309299C10096A0EA /* Exceptions for "NavigationControllerTutorial" folder in "NavigationControllerTutorial" target */ = {
+		5D6BD258309299C10096A0EA /* Exceptions for "NavigationStoryboard" folder in "NavigationStoryboard" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 5D6BD245309299BF0096A0EA /* NavigationControllerTutorial */;
+			target = 5D6BD245309299BF0096A0EA /* NavigationStoryboard */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5D6BD248309299BF0096A0EA /* NavigationControllerTutorial */ = {
+		5D6BD248309299BF0096A0EA /* NavigationStoryboard */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				5D6BD258309299C10096A0EA /* Exceptions for "NavigationControllerTutorial" folder in "NavigationControllerTutorial" target */,
+				5D6BD258309299C10096A0EA /* Exceptions for "NavigationStoryboard" folder in "NavigationStoryboard" target */,
 			);
-			path = NavigationControllerTutorial;
+			path = NavigationStoryboard;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -43,7 +43,7 @@
 		5D6BD23D309299BF0096A0EA = {
 			isa = PBXGroup;
 			children = (
-				5D6BD248309299BF0096A0EA /* NavigationControllerTutorial */,
+				5D6BD248309299BF0096A0EA /* NavigationStoryboard */,
 				5D6BD247309299BF0096A0EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 		5D6BD247309299BF0096A0EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D6BD246309299BF0096A0EA /* NavigationControllerTutorial.app */,
+				5D6BD246309299BF0096A0EA /* NavigationStoryboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,9 +59,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D6BD245309299BF0096A0EA /* NavigationControllerTutorial */ = {
+		5D6BD245309299BF0096A0EA /* NavigationStoryboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D6BD259309299C10096A0EA /* Build configuration list for PBXNativeTarget "NavigationControllerTutorial" */;
+			buildConfigurationList = 5D6BD259309299C10096A0EA /* Build configuration list for PBXNativeTarget "NavigationStoryboard" */;
 			buildPhases = (
 				5D6BD242309299BF0096A0EA /* Sources */,
 				5D6BD243309299BF0096A0EA /* Frameworks */,
@@ -70,11 +70,11 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				5D6BD248309299BF0096A0EA /* NavigationControllerTutorial */,
+				5D6BD248309299BF0096A0EA /* NavigationStoryboard */,
 			);
-			name = NavigationControllerTutorial;
+			name = NavigationStoryboard;
 			productName = ControllerTutorial;
-			productReference = 5D6BD246309299BF0096A0EA /* NavigationControllerTutorial.app */;
+			productReference = 5D6BD246309299BF0096A0EA /* NavigationStoryboard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -92,7 +92,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5D6BD241309299BF0096A0EA /* Build configuration list for PBXProject "NavigationControllerTutorial" */;
+			buildConfigurationList = 5D6BD241309299BF0096A0EA /* Build configuration list for PBXProject "NavigationStoryboard" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,7 +106,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D6BD245309299BF0096A0EA /* NavigationControllerTutorial */,
+				5D6BD245309299BF0096A0EA /* NavigationStoryboard */,
 			);
 		};
 /* End PBXProject section */
@@ -128,17 +128,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5D6BD25A309299C10096A0EA /* Debug configuration for PBXNativeTarget "NavigationControllerTutorial" */ = {
+		5D6BD25A309299C10096A0EA /* Debug configuration for PBXNativeTarget "NavigationStoryboard" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HJR9SZ84L5;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NavigationControllerTutorial/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Navigation Controller";
+				INFOPLIST_FILE = NavigationStoryboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Navigation Storyboard";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -150,8 +150,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zulalnb.NavigationControllerTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zulalnb.NavigationStoryboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -166,17 +167,17 @@
 			};
 			name = Debug;
 		};
-		5D6BD25B309299C10096A0EA /* Release configuration for PBXNativeTarget "NavigationControllerTutorial" */ = {
+		5D6BD25B309299C10096A0EA /* Release configuration for PBXNativeTarget "NavigationStoryboard" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HJR9SZ84L5;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NavigationControllerTutorial/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Navigation Controller";
+				INFOPLIST_FILE = NavigationStoryboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Navigation Storyboard";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -188,8 +189,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zulalnb.NavigationControllerTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zulalnb.NavigationStoryboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -204,7 +206,7 @@
 			};
 			name = Release;
 		};
-		5D6BD25C309299C10096A0EA /* Debug configuration for PBXProject "NavigationControllerTutorial" */ = {
+		5D6BD25C309299C10096A0EA /* Debug configuration for PBXProject "NavigationStoryboard" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		5D6BD25D309299C10096A0EA /* Release configuration for PBXProject "NavigationControllerTutorial" */ = {
+		5D6BD25D309299C10096A0EA /* Release configuration for PBXProject "NavigationStoryboard" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,19 +330,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D6BD241309299BF0096A0EA /* Build configuration list for PBXProject "NavigationControllerTutorial" */ = {
+		5D6BD241309299BF0096A0EA /* Build configuration list for PBXProject "NavigationStoryboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D6BD25C309299C10096A0EA /* Debug configuration for PBXProject "NavigationControllerTutorial" */,
-				5D6BD25D309299C10096A0EA /* Release configuration for PBXProject "NavigationControllerTutorial" */,
+				5D6BD25C309299C10096A0EA /* Debug configuration for PBXProject "NavigationStoryboard" */,
+				5D6BD25D309299C10096A0EA /* Release configuration for PBXProject "NavigationStoryboard" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		5D6BD259309299C10096A0EA /* Build configuration list for PBXNativeTarget "NavigationControllerTutorial" */ = {
+		5D6BD259309299C10096A0EA /* Build configuration list for PBXNativeTarget "NavigationStoryboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D6BD25A309299C10096A0EA /* Debug configuration for PBXNativeTarget "NavigationControllerTutorial" */,
-				5D6BD25B309299C10096A0EA /* Release configuration for PBXNativeTarget "NavigationControllerTutorial" */,
+				5D6BD25A309299C10096A0EA /* Debug configuration for PBXNativeTarget "NavigationStoryboard" */,
+				5D6BD25B309299C10096A0EA /* Release configuration for PBXNativeTarget "NavigationStoryboard" */,
 			);
 			defaultConfigurationName = Release;
 		};
