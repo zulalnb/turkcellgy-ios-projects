@@ -6,7 +6,9 @@ iOS uygulamalarında her ekranın arkasında, o ekranı yöneten bir `UIViewCont
 
 View Controller yaşam döngüsü UIKit tarafından yönetilir. Bu süreçte belirli aşamalarda tetiklenen metotları override ederek ekranın durumuna göre gerçekleştirmek istediğimiz işlemleri tanımlayabiliriz.
 
-![View Controller Yaşam Döngüsü](./assets/view-controller-lifecycle.jpg)
+<p align="center">
+  <img src="./assets/view-controller-lifecycle.jpg" alt="View Controller Yaşam Döngüsü" width="360">
+</p>
 
 ## Yaşam Döngüsü Metotları
 

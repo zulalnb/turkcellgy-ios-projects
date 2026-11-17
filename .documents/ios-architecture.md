@@ -4,7 +4,9 @@
 
 iOS çalışma mimarisi, uygulamaların çalışmasını sağlayan ve farklı sorumluluklara sahip katmanlardan oluşur. Bu katmanlar, kullanıcı arayüzünden işletim sistemine ve donanım yönetimine kadar farklı görevler üstlenir.
 
-![iOS Mimarisi Katmanları](./assets/ios-architecture-layers.jpg)
+<p align="center">
+  <img src="./assets/ios-architecture-layers.jpg" alt="iOS Mimarisi Katmanları" width="480" />
+</p>
 
 ### 1. Cocoa Touch
 
