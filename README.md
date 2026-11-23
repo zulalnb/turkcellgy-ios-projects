@@ -124,7 +124,7 @@ Uygulama projelerinin yanı sıra iOS geliştirme sürecinde kullanılan temel k
       <td>Timer</td>
     </tr>
     <tr>
-      <td><a href="CameraPermissions/">Camera Permissions</a></td>
+      <td><a href="CameraAndGallery/">Camera And Gallery</a></td>
       <td>Kamera ve Galeri İzin Kontrol Lab</td>
     </tr>
   </tbody>

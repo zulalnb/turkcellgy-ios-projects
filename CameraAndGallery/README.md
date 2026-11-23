@@ -1,8 +1,15 @@
-# Camera Permissions
+# Camera And Gallery
 
 Bu uygulama, iOS uygulamalarında kamera erişim izinlerinin kontrol edilmesini ve kamera üzerinden çekilen bir görselin uygulama arayüzünde görüntülenmesini göstermek amacıyla hazırlanmıştır.
 
 Uygulama, UIKit ve AVFoundation framework'leri kullanılarak geliştirilmiştir.
+
+## Ekran Görüntüsü
+
+<p align="center">
+  <img src="./screenshots/home.png" alt="Camera And Gallery" width="300">
+</p>
+
 
 ## Konu: Camera Permissions
 

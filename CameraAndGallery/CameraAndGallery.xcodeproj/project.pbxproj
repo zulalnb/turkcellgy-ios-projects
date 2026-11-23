@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		5D36956130953E9000F5214E /* CameraPermissions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraPermissions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D36956130953E9000F5214E /* CameraAndGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraAndGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5D36957330953E9200F5214E /* Exceptions for "CameraPermissions" folder in "CameraPermissions" target */ = {
+		5D36957330953E9200F5214E /* Exceptions for "CameraAndGallery" folder in "CameraAndGallery" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 5D36956030953E9000F5214E /* CameraPermissions */;
+			target = 5D36956030953E9000F5214E /* CameraAndGallery */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5D36956330953E9000F5214E /* CameraPermissions */ = {
+		5D36956330953E9000F5214E /* CameraAndGallery */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				5D36957330953E9200F5214E /* Exceptions for "CameraPermissions" folder in "CameraPermissions" target */,
+				5D36957330953E9200F5214E /* Exceptions for "CameraAndGallery" folder in "CameraAndGallery" target */,
 			);
-			path = CameraPermissions;
+			path = CameraAndGallery;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -43,7 +43,7 @@
 		5D36955830953E9000F5214E = {
 			isa = PBXGroup;
 			children = (
-				5D36956330953E9000F5214E /* CameraPermissions */,
+				5D36956330953E9000F5214E /* CameraAndGallery */,
 				5D36956230953E9000F5214E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 		5D36956230953E9000F5214E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D36956130953E9000F5214E /* CameraPermissions.app */,
+				5D36956130953E9000F5214E /* CameraAndGallery.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,9 +59,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D36956030953E9000F5214E /* CameraPermissions */ = {
+		5D36956030953E9000F5214E /* CameraAndGallery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D36957430953E9200F5214E /* Build configuration list for PBXNativeTarget "CameraPermissions" */;
+			buildConfigurationList = 5D36957430953E9200F5214E /* Build configuration list for PBXNativeTarget "CameraAndGallery" */;
 			buildPhases = (
 				5D36955D30953E9000F5214E /* Sources */,
 				5D36955E30953E9000F5214E /* Frameworks */,
@@ -70,11 +70,11 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				5D36956330953E9000F5214E /* CameraPermissions */,
+				5D36956330953E9000F5214E /* CameraAndGallery */,
 			);
-			name = CameraPermissions;
+			name = CameraAndGallery;
 			productName = CameraPermissions;
-			productReference = 5D36956130953E9000F5214E /* CameraPermissions.app */;
+			productReference = 5D36956130953E9000F5214E /* CameraAndGallery.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -92,7 +92,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5D36955C30953E9000F5214E /* Build configuration list for PBXProject "CameraPermissions" */;
+			buildConfigurationList = 5D36955C30953E9000F5214E /* Build configuration list for PBXProject "CameraAndGallery" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,7 +106,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D36956030953E9000F5214E /* CameraPermissions */,
+				5D36956030953E9000F5214E /* CameraAndGallery */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +128,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5D36957530953E9200F5214E /* Debug configuration for PBXNativeTarget "CameraPermissions" */ = {
+		5D36957530953E9200F5214E /* Debug configuration for PBXNativeTarget "CameraAndGallery" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -137,8 +137,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HJR9SZ84L5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CameraPermissions/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Camera Permissions";
+				INFOPLIST_FILE = CameraAndGallery/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Camera And Gallery";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Kamera erişimine izin vermelisiniz";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Galeri erişimine izin vermelisiniz";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -152,7 +152,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zulalnb.CameraPermissions;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zulalnb.CameraAndGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -168,7 +168,7 @@
 			};
 			name = Debug;
 		};
-		5D36957630953E9200F5214E /* Release configuration for PBXNativeTarget "CameraPermissions" */ = {
+		5D36957630953E9200F5214E /* Release configuration for PBXNativeTarget "CameraAndGallery" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -177,8 +177,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HJR9SZ84L5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CameraPermissions/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Camera Permissions";
+				INFOPLIST_FILE = CameraAndGallery/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Camera And Gallery";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Kamera erişimine izin vermelisiniz";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Galeri erişimine izin vermelisiniz";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -192,7 +192,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zulalnb.CameraPermissions;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zulalnb.CameraAndGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -208,7 +208,7 @@
 			};
 			name = Release;
 		};
-		5D36957730953E9200F5214E /* Debug configuration for PBXProject "CameraPermissions" */ = {
+		5D36957730953E9200F5214E /* Debug configuration for PBXProject "CameraAndGallery" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,7 +272,7 @@
 			};
 			name = Debug;
 		};
-		5D36957830953E9200F5214E /* Release configuration for PBXProject "CameraPermissions" */ = {
+		5D36957830953E9200F5214E /* Release configuration for PBXProject "CameraAndGallery" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,19 +332,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D36955C30953E9000F5214E /* Build configuration list for PBXProject "CameraPermissions" */ = {
+		5D36955C30953E9000F5214E /* Build configuration list for PBXProject "CameraAndGallery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D36957730953E9200F5214E /* Debug configuration for PBXProject "CameraPermissions" */,
-				5D36957830953E9200F5214E /* Release configuration for PBXProject "CameraPermissions" */,
+				5D36957730953E9200F5214E /* Debug configuration for PBXProject "CameraAndGallery" */,
+				5D36957830953E9200F5214E /* Release configuration for PBXProject "CameraAndGallery" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		5D36957430953E9200F5214E /* Build configuration list for PBXNativeTarget "CameraPermissions" */ = {
+		5D36957430953E9200F5214E /* Build configuration list for PBXNativeTarget "CameraAndGallery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D36957530953E9200F5214E /* Debug configuration for PBXNativeTarget "CameraPermissions" */,
-				5D36957630953E9200F5214E /* Release configuration for PBXNativeTarget "CameraPermissions" */,
+				5D36957530953E9200F5214E /* Debug configuration for PBXNativeTarget "CameraAndGallery" */,
+				5D36957630953E9200F5214E /* Release configuration for PBXNativeTarget "CameraAndGallery" */,
 			);
 			defaultConfigurationName = Release;
 		};

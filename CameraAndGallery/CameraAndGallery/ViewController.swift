@@ -13,7 +13,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     // Kameradan çekilen bir resmin ekranın arkaplanına eklenmesi.
     // Bu işlemler yapılırken gerekli izin kontrolleri de yapılacaktır.
     
-    @IBOutlet weak var backgroundImageView: UIImageView!
+    @IBOutlet weak var selectedImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +31,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let image = info[UIImagePickerController.InfoKey.originalImage] as! UIImage
-        backgroundImageView.image = image
+        selectedImageView.image = image
         dismiss(animated: true, completion: nil)
     }
     
