@@ -13,13 +13,13 @@
   "files": [
     {
       "kind": "folder",
-      "path": "TodoListCoreData",
+      "path": "TodoListDatabase",
       "target-membership": [
-        "TodoListCoreData",
+        "TodoListDatabase",
       ],
       "membership-exceptions": [
         {
-          "target": "TodoListCoreData",
+          "target": "TodoListDatabase",
           "exclusions": [
             "Info.plist",
           ],
@@ -29,15 +29,15 @@
       "kind": "group",
       "name": "Products",
       "children": [
-        { "path": "<PRODUCTS>/TodoListCoreData.app", "id": "5D4C479D309B476D00126373", "type": "wrapper.application", "index": false },
+        { "path": "<PRODUCTS>/TodoListDatabase.app", "id": "5D4C479D309B476D00126373", "type": "wrapper.application", "index": false },
       ],
     },
   ],
   "targets": [
     {
-      "name": "TodoListCoreData",
+      "name": "TodoListDatabase",
       "id": "5D4C479C309B476D00126373",
-      "product": "Products/TodoListCoreData.app",
+      "product": "Products/TodoListDatabase.app",
       "product-type": "application",
       "build-phases": [
         "compile-sources",
@@ -51,7 +51,7 @@
         "CURRENT_PROJECT_VERSION": "1",
         "DEVELOPMENT_TEAM": "HJR9SZ84L5",
         "GENERATE_INFOPLIST_FILE": "YES",
-        "INFOPLIST_FILE": "TodoListCoreData/Info.plist",
+        "INFOPLIST_FILE": "TodoListDatabase/Info.plist",
         "INFOPLIST_KEY_CFBundleDisplayName": "Todo List",
         "INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents": "YES",
         "INFOPLIST_KEY_UILaunchStoryboardName": "LaunchScreen",
@@ -64,7 +64,7 @@
           "@executable_path/Frameworks",
         ],
         "MARKETING_VERSION": "1.0",
-        "PRODUCT_BUNDLE_IDENTIFIER": "com.zulalnb.TodoListCoreData",
+        "PRODUCT_BUNDLE_IDENTIFIER": "com.zulalnb.TodoListDatabase",
         "PRODUCT_NAME": "$(TARGET_NAME)",
         "STRING_CATALOG_GENERATE_SYMBOLS": "YES",
         "SUPPORTED_PLATFORMS": "iphoneos iphonesimulator",

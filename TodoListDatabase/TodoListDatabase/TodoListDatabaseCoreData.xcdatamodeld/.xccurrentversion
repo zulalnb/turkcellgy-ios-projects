@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>_XCCurrentVersionName</key>
-	<string>TodoListCoreData.xcdatamodel</string>
+	<string>TodoListDatabaseCoreData.xcdatamodel</string>
 </dict>
 </plist>

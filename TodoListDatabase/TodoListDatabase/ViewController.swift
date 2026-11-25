@@ -20,16 +20,16 @@ class ViewController: UIViewController {
         getTodos()
 
         // Update
-        updateTodos()
+        // updateTodos()
 
         // Read
-        getTodos()
+        // getTodos()
 
         // Delete
-        deleteTodos()
+        // deleteTodos()
 
         // Read
-        getTodos()
+        // getTodos()
         
     }
     

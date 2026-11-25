@@ -183,7 +183,7 @@ Uygulama projelerinin yanı sıra iOS geliştirme sürecinde kullanılan temel k
       <td>User Defaults Lab</td>
     </tr>
     <tr>
-      <td><a href="TodoListCoreData/">Todo List Core Data</a></td>
+      <td><a href="TodoListDatabase/">Todo List Database</a></td>
       <td>Core Data</td>
     </tr>
     <tr>
