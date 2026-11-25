@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  ContactManagerCoreData
+//  ContactManager
 //
 //  Created by Zülal Nebin on 5.11.2026.
 //

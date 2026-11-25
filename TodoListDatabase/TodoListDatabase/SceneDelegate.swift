@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  TodoListCoreData
+//  TodoListDatabase
 //
 //  Created by Zülal Nebin on 4.11.2026.
 //

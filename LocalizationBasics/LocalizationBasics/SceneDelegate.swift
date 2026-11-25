@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  LocalizationTutorial
+//  LocalizationBasics
 //
 //  Created by Zülal Nebin on 28.10.2026.
 //

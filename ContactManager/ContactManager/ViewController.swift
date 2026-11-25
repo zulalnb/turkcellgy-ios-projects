@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ContactManagerCoreData
+//  ContactManager
 //
 //  Created by Zülal Nebin on 5.11.2026.
 //
@@ -65,6 +65,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 .persistentContainer
                 .viewContext
                 .delete(contacts![indexPath.row])
+            
+            (UIApplication.shared.delegate as! AppDelegate).saveContext()
             
             fetchContacts()
         }

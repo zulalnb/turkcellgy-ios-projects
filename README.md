@@ -187,7 +187,7 @@ Uygulama projelerinin yanı sıra iOS geliştirme sürecinde kullanılan temel k
       <td>Core Data</td>
     </tr>
     <tr>
-      <td><a href="ContactManagerCoreData/">Contact Manager Core Data</a></td>
+      <td><a href="ContactManager/">Contact Manager</a></td>
       <td>Core Data Lab</td>
     </tr>
     <tr>
