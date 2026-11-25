@@ -1,4 +1,4 @@
-# NavigationFlow
+# Navigation Flow
 
 Bu proje, UIKit kullanılarak geliştirilen bir iOS uygulamasında **UINavigationController ile ekranlar arası gezinmenin nasıl yönetildiğini** göstermektedir.
 

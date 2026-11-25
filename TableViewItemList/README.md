@@ -1,4 +1,4 @@
-# TableViewItemList
+# TableView Item List
 
 Swift ve UIKit kullanılarak geliştirilen basit bir liste uygulaması. Kullanıcı, metin alanına girdiği öğeleri listeye ekleyebilir ve listedeki öğeleri kaydırma hareketiyle silebilir.
 

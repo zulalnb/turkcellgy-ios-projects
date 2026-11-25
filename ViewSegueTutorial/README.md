@@ -1,4 +1,4 @@
-# ViewSegueTutorial
+# View Segue Tutorial
 
 Bu proje, UIKit içerisinde Storyboard kullanarak View Controller'lar arasında ekran geçişi (Segue) oluşturmayı göstermek amacıyla hazırlanmıştır.
 

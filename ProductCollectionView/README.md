@@ -1,4 +1,4 @@
-# ProductCollectionView
+# Product CollectionView
 
 Swift ve UIKit kullanılarak geliştirilen, ürünlerin iki sütun halinde listelendiği bir iOS uygulaması.
 

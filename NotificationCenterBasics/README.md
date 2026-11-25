@@ -1,4 +1,4 @@
-# NotificationCenterBasics
+# NotificationCenter Basics
 
 Bu proje, iOS uygulamalarında bildirim mekanizmalarının kullanımını gösterir. `NotificationCenter` ile uygulama içerisindeki olayların farklı ekranlar tarafından dinlenmesi, **User Notifications** framework'ü ile yerel bildirim oluşturulması ve push notification mantığı ele alınır.
 

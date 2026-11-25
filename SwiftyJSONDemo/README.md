@@ -1,4 +1,4 @@
-# SwiftyJSONDemo
+# SwiftyJSON Demo
 
 Bu proje, **Swift Package Manager (SPM)** kullanarak harici bir kütüphanenin iOS projesine nasıl ekleneceğini ve **SwiftyJSON** kütüphanesiyle JSON verilerinin nasıl işleneceğini gösterir.
 

@@ -1,4 +1,4 @@
-# TabbarControllerTutorial
+# TabbarController Tutorial
 
 Bu proje, UIKit içerisinde `UITabBarController` kullanarak sekmeli (tab bar) bir arayüz oluşturmayı göstermek amacıyla hazırlanmıştır.
 

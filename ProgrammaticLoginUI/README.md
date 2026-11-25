@@ -1,4 +1,4 @@
-# ProgrammaticLoginUI
+# Programmatic Login UI
 
 Bu proje, UIKit kullanılarak Storyboard kullanmadan arayüz elemanlarının Swift kodu ile oluşturulmasını ve Auto Layout ile konumlandırılmasını göstermek amacıyla hazırlanmıştır.
 

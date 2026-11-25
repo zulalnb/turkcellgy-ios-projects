@@ -1,4 +1,4 @@
-# ViewControllerLifecycle
+# ViewController Lifecycle
 
 Bu proje, UIKit içerisinde `UIViewController` yaşam döngüsünü (View Controller Lifecycle) uygulamalı olarak gözlemlemek amacıyla hazırlanmıştır.
 

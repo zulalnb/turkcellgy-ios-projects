@@ -1,4 +1,4 @@
-# XIBTutorial
+# XIB Tutorial
 
 Bu proje, UIKit içerisinde XIB (XML Interface Builder) dosyalarının kullanımını ve arayüz bileşenlerinin ayrı dosyalarda tasarlanmasını göstermek amacıyla hazırlanmıştır.
 

@@ -1,4 +1,4 @@
-# TimerTutorial
+# Timer Tutorial
 
 Bu proje, Swift ve UIKit kullanılarak `Timer` sınıfının kullanımını göstermek amacıyla hazırlanmıştır.
 

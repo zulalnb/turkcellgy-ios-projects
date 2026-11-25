@@ -1,4 +1,4 @@
-# TodoListCoreData
+# Todo List Database
 
 Swift ve UIKit kullanılarak geliştirilen bu proje, Core Data ile veri saklama ve yönetme işlemlerini göstermek amacıyla hazırlanmıştır.
 

@@ -1,4 +1,4 @@
-# ContactsMVVM
+# Contacts MVVM
 
 Bu proje, iOS uygulamalarında **MVVM (Model-View-ViewModel)** mimarisinin temel kullanımını göstermek amacıyla hazırlanmıştır. Kişi bilgileri Model katmanında tanımlanır, ViewModel katmanında yönetilir ve UIKit kullanılarak ekranda listelenir.
 

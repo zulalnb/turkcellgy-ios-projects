@@ -1,4 +1,4 @@
-# MapsBasics
+# Maps Basics
 
 Bu proje, iOS uygulamalarında harita ve konum özelliklerinin kullanımını gösterir. Apple'ın **Core Location** ve **MapKit** framework'leri ile **Google Maps SDK** kullanılarak iki farklı harita sağlayıcısı aynı ekran üzerinden deneyimlenebilir.
 

@@ -1,4 +1,4 @@
-# FileManagerBasics
+# File Manager Basics
 
 Swift ve UIKit kullanılarak geliştirilen bu proje, iOS uygulamalarında dosya sistemiyle çalışmanın temel yöntemlerini göstermek amacıyla hazırlanmıştır.
 
@@ -7,7 +7,7 @@ Uygulamada uygulamanın kendi Documents dizininde dosya oluşturma, yazma, okuma
 ## Ekran Görüntüsü
 
 <p align="center">
-  <img src="./screenshots/home.png" alt="FileManagerBasics uygulamasının ekranı" width="300" />
+  <img src="./screenshots/home.png" alt="File Manager Basics uygulamasının ekranı" width="300" />
 </p>
 
 ## Özellikler

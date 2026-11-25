@@ -1,4 +1,4 @@
-# UserDataTransfer
+# User Data Transfer
 
 Bu proje, UIKit kullanılarak View Controller'lar arasında veri aktarımının nasıl gerçekleştirildiğini göstermek amacıyla hazırlanmıştır.
 

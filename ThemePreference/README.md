@@ -1,4 +1,4 @@
-# ThemePreference
+# Theme Preference
 
 ## Açıklama
 

@@ -1,4 +1,4 @@
-# LocalizationBasics
+# Localization Basics
 
 ## Açıklama
 

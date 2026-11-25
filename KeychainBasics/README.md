@@ -1,4 +1,4 @@
-# KeychainBasics
+# Keychain Basics
 
 Bu proje, iOS uygulamalarında hassas verilerin güvenli şekilde saklanması için kullanılan **Keychain Services** yapısını tanıtır. Apple'ın `Security` framework'ü kullanılarak Keychain üzerinde parola oluşturma, okuma, güncelleme ve silme işlemleri gerçekleştirilir.
 

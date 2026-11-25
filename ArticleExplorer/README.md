@@ -1,4 +1,4 @@
-# ArticleExplorer
+# Article Explorer
 
 Swift ve UIKit kullanılarak geliştirilen, makalelerin listelendiği ve arama yapılabildiği bir iOS uygulaması.
 

@@ -1,4 +1,4 @@
-# ContactManagerCoreData
+# Contact Manager
 
 Swift ve UIKit kullanılarak geliştirilen bu proje, Core Data ile kişi bilgilerinin kalıcı olarak saklanmasını ve yönetilmesini amaçlayan bir kişi rehberi uygulamasıdır.
 

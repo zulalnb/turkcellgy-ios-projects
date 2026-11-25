@@ -1,4 +1,4 @@
-# CustomPersonTableView
+# Custom Person TableView
 
 Swift ve UIKit kullanılarak geliştirilen, kişi bilgilerini özel tasarlanmış UITableView hücreleri içerisinde görüntüleyen bir iOS uygulaması.
 

@@ -1,4 +1,4 @@
-# ServiceHub
+# Service Hub
 
 ServiceHub, kullanıcıların sundukları hizmetleri paylaşabildiği ve diğer hizmet sağlayıcıları görüntüleyebildiği basit bir iOS uygulamasıdır. **Firebase Authentication** ile kullanıcı kaydı ve oturum yönetimi, **Firebase Realtime Database** ile hizmet veren kişilerin bilgilerinin saklanması ve listelenmesi sağlanır.
 
