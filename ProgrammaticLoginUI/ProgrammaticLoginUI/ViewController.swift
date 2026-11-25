@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         tfPassword.borderStyle = .roundedRect
         tfPassword.textColor = .black
         tfPassword.font = UIFont.systemFont(ofSize: 15)
+        tfPassword.isSecureTextEntry = true
         view.addSubview(tfPassword)
         
         let btnSignIn = UIButton()

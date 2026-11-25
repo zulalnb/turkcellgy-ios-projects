@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		5D6BD17B309214210096A0EA /* LocalizationTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6BD17B309214210096A0EA /* LocalizationBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5D6BD18D309214220096A0EA /* Exceptions for "LocalizationTutorial" folder in "LocalizationTutorial" target */ = {
+		5D6BD18D309214220096A0EA /* Exceptions for "LocalizationBasics" folder in "LocalizationBasics" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 5D6BD17A309214210096A0EA /* LocalizationTutorial */;
+			target = 5D6BD17A309214210096A0EA /* LocalizationBasics */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5D6BD17D309214210096A0EA /* LocalizationTutorial */ = {
+		5D6BD17D309214210096A0EA /* LocalizationBasics */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				5D6BD18D309214220096A0EA /* Exceptions for "LocalizationTutorial" folder in "LocalizationTutorial" target */,
+				5D6BD18D309214220096A0EA /* Exceptions for "LocalizationBasics" folder in "LocalizationBasics" target */,
 			);
-			path = LocalizationTutorial;
+			path = LocalizationBasics;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -43,7 +43,7 @@
 		5D6BD172309214210096A0EA = {
 			isa = PBXGroup;
 			children = (
-				5D6BD17D309214210096A0EA /* LocalizationTutorial */,
+				5D6BD17D309214210096A0EA /* LocalizationBasics */,
 				5D6BD17C309214210096A0EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 		5D6BD17C309214210096A0EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D6BD17B309214210096A0EA /* LocalizationTutorial.app */,
+				5D6BD17B309214210096A0EA /* LocalizationBasics.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,9 +59,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D6BD17A309214210096A0EA /* LocalizationTutorial */ = {
+		5D6BD17A309214210096A0EA /* LocalizationBasics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D6BD18E309214220096A0EA /* Build configuration list for PBXNativeTarget "LocalizationTutorial" */;
+			buildConfigurationList = 5D6BD18E309214220096A0EA /* Build configuration list for PBXNativeTarget "LocalizationBasics" */;
 			buildPhases = (
 				5D6BD177309214210096A0EA /* Sources */,
 				5D6BD178309214210096A0EA /* Frameworks */,
@@ -70,11 +70,11 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				5D6BD17D309214210096A0EA /* LocalizationTutorial */,
+				5D6BD17D309214210096A0EA /* LocalizationBasics */,
 			);
-			name = LocalizationTutorial;
+			name = LocalizationBasics;
 			productName = LocalizationTutorial;
-			productReference = 5D6BD17B309214210096A0EA /* LocalizationTutorial.app */;
+			productReference = 5D6BD17B309214210096A0EA /* LocalizationBasics.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -92,7 +92,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5D6BD176309214210096A0EA /* Build configuration list for PBXProject "LocalizationTutorial" */;
+			buildConfigurationList = 5D6BD176309214210096A0EA /* Build configuration list for PBXProject "LocalizationBasics" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -107,7 +107,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D6BD17A309214210096A0EA /* LocalizationTutorial */,
+				5D6BD17A309214210096A0EA /* LocalizationBasics */,
 			);
 		};
 /* End PBXProject section */
@@ -129,7 +129,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5D6BD18F309214220096A0EA /* Debug configuration for PBXNativeTarget "LocalizationTutorial" */ = {
+		5D6BD18F309214220096A0EA /* Debug configuration for PBXNativeTarget "LocalizationBasics" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -138,7 +138,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HJR9SZ84L5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LocalizationTutorial/Info.plist;
+				INFOPLIST_FILE = LocalizationBasics/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Localization;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -151,7 +151,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zulalnb.LocalizationTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zulalnb.LocalizationBasics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -167,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		5D6BD190309214220096A0EA /* Release configuration for PBXNativeTarget "LocalizationTutorial" */ = {
+		5D6BD190309214220096A0EA /* Release configuration for PBXNativeTarget "LocalizationBasics" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -176,7 +176,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HJR9SZ84L5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LocalizationTutorial/Info.plist;
+				INFOPLIST_FILE = LocalizationBasics/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Localization;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -189,7 +189,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zulalnb.LocalizationTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zulalnb.LocalizationBasics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -205,7 +205,7 @@
 			};
 			name = Release;
 		};
-		5D6BD191309214220096A0EA /* Debug configuration for PBXProject "LocalizationTutorial" */ = {
+		5D6BD191309214220096A0EA /* Debug configuration for PBXProject "LocalizationBasics" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +270,7 @@
 			};
 			name = Debug;
 		};
-		5D6BD192309214220096A0EA /* Release configuration for PBXProject "LocalizationTutorial" */ = {
+		5D6BD192309214220096A0EA /* Release configuration for PBXProject "LocalizationBasics" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -331,19 +331,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D6BD176309214210096A0EA /* Build configuration list for PBXProject "LocalizationTutorial" */ = {
+		5D6BD176309214210096A0EA /* Build configuration list for PBXProject "LocalizationBasics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D6BD191309214220096A0EA /* Debug configuration for PBXProject "LocalizationTutorial" */,
-				5D6BD192309214220096A0EA /* Release configuration for PBXProject "LocalizationTutorial" */,
+				5D6BD191309214220096A0EA /* Debug configuration for PBXProject "LocalizationBasics" */,
+				5D6BD192309214220096A0EA /* Release configuration for PBXProject "LocalizationBasics" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		5D6BD18E309214220096A0EA /* Build configuration list for PBXNativeTarget "LocalizationTutorial" */ = {
+		5D6BD18E309214220096A0EA /* Build configuration list for PBXNativeTarget "LocalizationBasics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D6BD18F309214220096A0EA /* Debug configuration for PBXNativeTarget "LocalizationTutorial" */,
-				5D6BD190309214220096A0EA /* Release configuration for PBXNativeTarget "LocalizationTutorial" */,
+				5D6BD18F309214220096A0EA /* Debug configuration for PBXNativeTarget "LocalizationBasics" */,
+				5D6BD190309214220096A0EA /* Release configuration for PBXNativeTarget "LocalizationBasics" */,
 			);
 			defaultConfigurationName = Release;
 		};

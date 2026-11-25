@@ -4,6 +4,13 @@ Bu proje, UIKit kullanılarak Storyboard kullanmadan arayüz elemanlarının Swi
 
 Ekranda kullanıcı adı ve şifre alanları ile giriş yap butonu bulunan basit bir giriş arayüzü oluşturulmuştur.
 
+## Ekran Görüntüsü
+
+<p align="center">
+  <img src="./screenshots/home.png" alt="Programmatic Login UI uygulamasının ekranı" width="300" />
+</p>
+
+
 ## Kullanılan Konseptler
 
 ### Programmatic UI

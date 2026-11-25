@@ -51,7 +51,7 @@ Uygulama projelerinin yanı sıra iOS geliştirme sürecinde kullanılan temel k
       <td>Constraints Lab - 2</td>
     </tr>
     <tr>
-      <td><a href="LocalizationTutorial/">Localization</a></td>
+      <td><a href="LocalizationBasics/">Localization</a></td>
       <td>Çoklu Dil Desteği</td>
     </tr>
     <tr>
@@ -179,7 +179,7 @@ Uygulama projelerinin yanı sıra iOS geliştirme sürecinde kullanılan temel k
       <td colspan="2"><strong>Depolama</strong></td>
     </tr>
     <tr>
-      <td><a href="ThemeUserDefaults/">Theme User Defaults</a></td>
+      <td><a href="ThemePreference/">Theme Preference</a></td>
       <td>User Defaults Lab</td>
     </tr>
     <tr>

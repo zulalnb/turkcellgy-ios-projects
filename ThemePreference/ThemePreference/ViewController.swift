@@ -9,10 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // UserDefaults kullanılarak kullanıcının seçtiği tema kaydedilecek.
-    // Açık ve koyu tema seçenekleri olacak.
-    // Kullanıcı tema seçimini değiştirdiğinde tercihi UserDefaults'a kaydedilecek.
-    // Uygulama yeniden açıldığında kayıtlı temayı okuyarak ilgili temayı uygulanacak.
+    // Ekranda koyu tema ve açık temanın seçilmesini sağlayacak buton olacak.
+    // Bu butonlar aracılığı ile kullanıcı uygulamasının temasını seçebilecek.
+    // Uygulama açıldığında kullanıcının teması ne ise arkaplan ona göre renklenecek.
+    // Varsayılan tema, açık renk tema olacaktır.
     
     override func viewDidLoad() {
         super.viewDidLoad()

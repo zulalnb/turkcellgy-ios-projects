@@ -1,8 +1,17 @@
-# ThemeUserDefaults
+# ThemePreference
+
+## Açıklama
 
 Swift ve UIKit kullanılarak geliştirilen bu proje, `UserDefaults` ile kullanıcı tercihlerinin saklanmasını göstermek amacıyla hazırlanmıştır.
 
 Kullanıcı açık veya koyu tema seçebilir. Seçilen tercih kaydedilir ve uygulama yeniden açıldığında tekrar uygulanır.
+
+## Ekran Görüntüsü
+
+<p align="center">
+  <img src="./screenshots/home.gif" alt="Theme Preference uygulamasının ekranı" width="300" />
+</p>
+
 
 ## UserDefaults Nedir?
 
