@@ -6,6 +6,12 @@ Bu proje, UIKit kullanılarak oluşturulan basit bir login ekranında kullanıc�
 
 Kullanıcı giriş butonuna bastığında öncelikle kullanıcı adı ve şifre alanlarının boş olup olmadığı kontrol edilir. Alanlar doluysa girilen bilgiler belirlenen değerlerle karşılaştırılır ve giriş işleminin başarılı veya başarısız olduğu konsola yazdırılır.
 
+## Ekran Görüntüsü
+
+<p align="center">
+  <img src="./screenshots/home.png" alt="Login Validation" width="300">
+</p>
+
 ## Öğrenilen Konular
 
 ### UITextField

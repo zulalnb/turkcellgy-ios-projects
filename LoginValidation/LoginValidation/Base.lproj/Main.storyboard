@@ -16,21 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kullanıcı adı" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="coR-5D-GCU">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Kullanıcı adı" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="coR-5D-GCU">
                                 <rect key="frame" x="48" y="155" width="344" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Şifreniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qwm-Me-Orv">
-                                <rect key="frame" x="48" y="227" width="344" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Şifreniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qwm-Me-Orv">
+                                <rect key="frame" x="48" y="205" width="344" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xWo-aF-Wgc">
-                                <rect key="frame" x="175" y="367" width="91" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xWo-aF-Wgc">
+                                <rect key="frame" x="174.66666666666666" y="303" width="90.999999999999972" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Giriş Yap"/>
                                 <connections>
@@ -40,6 +37,16 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Qwm-Me-Orv" firstAttribute="trailing" secondItem="coR-5D-GCU" secondAttribute="trailing" id="23K-0e-X9A"/>
+                            <constraint firstItem="Qwm-Me-Orv" firstAttribute="top" secondItem="coR-5D-GCU" secondAttribute="bottom" constant="16" id="6xg-F6-4hS"/>
+                            <constraint firstItem="xWo-aF-Wgc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="VxL-1i-GvW"/>
+                            <constraint firstItem="coR-5D-GCU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="WIg-AQ-KNq"/>
+                            <constraint firstItem="Qwm-Me-Orv" firstAttribute="leading" secondItem="coR-5D-GCU" secondAttribute="leading" id="Xgv-Hp-1RE"/>
+                            <constraint firstItem="coR-5D-GCU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="93" id="tGE-gD-xaq"/>
+                            <constraint firstItem="xWo-aF-Wgc" firstAttribute="top" secondItem="Qwm-Me-Orv" secondAttribute="bottom" constant="64" id="vVT-SE-UUX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="coR-5D-GCU" secondAttribute="trailing" constant="48" id="zNS-te-vId"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="tfPassword" destination="Qwm-Me-Orv" id="3PT-oc-PYg"/>
