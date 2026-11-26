@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ContactManagerCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ContactManager" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,38 +58,38 @@
         <!--Contact Form View Controller-->
         <scene sceneID="mLl-7M-W71">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="ubp-Sx-yeq" customClass="ContactFormViewController" customModule="ContactManagerCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="ubp-Sx-yeq" customClass="ContactFormViewController" customModule="ContactManager" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rsc-fo-hRN">
                         <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ad" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nif-S4-Bxl">
-                                <rect key="frame" x="15" y="162" width="410" height="34"/>
+                                <rect key="frame" x="15" y="154" width="410" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Soyad" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Aw-Y3-HXa">
-                                <rect key="frame" x="15" y="206" width="410" height="34"/>
+                                <rect key="frame" x="15" y="198" width="410" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-posta" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KXD-KG-Bkh">
-                                <rect key="frame" x="15" y="250" width="410" height="34"/>
+                                <rect key="frame" x="15" y="242" width="410" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j3L-1d-cGf">
-                                <rect key="frame" x="15" y="364" width="410" height="32"/>
+                                <rect key="frame" x="15" y="356" width="410" height="32"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Kaydet">
+                                <buttonConfiguration key="configuration" style="filled" title="Kaydet">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="saveButtonTapped:" destination="ubp-Sx-yeq" eventType="touchUpInside" id="Sfl-Wo-dj4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVb-AJ-dxB">
-                                <rect key="frame" x="20" y="70" width="75" height="32"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVb-AJ-dxB">
+                                <rect key="frame" x="20" y="72" width="75" height="32"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Vazgeç">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
@@ -105,11 +105,11 @@
                             <constraint firstItem="KXD-KG-Bkh" firstAttribute="trailing" secondItem="9Aw-Y3-HXa" secondAttribute="trailing" id="0VV-VE-6GY"/>
                             <constraint firstItem="nif-S4-Bxl" firstAttribute="leading" secondItem="W45-jd-KaZ" secondAttribute="leading" constant="15" id="6T0-nZ-WDS"/>
                             <constraint firstItem="W45-jd-KaZ" firstAttribute="trailing" secondItem="nif-S4-Bxl" secondAttribute="trailing" constant="15" id="8ft-dn-kYe"/>
-                            <constraint firstItem="nif-S4-Bxl" firstAttribute="top" secondItem="aVb-AJ-dxB" secondAttribute="bottom" constant="58" id="AGn-BJ-9gd"/>
+                            <constraint firstItem="nif-S4-Bxl" firstAttribute="top" secondItem="aVb-AJ-dxB" secondAttribute="bottom" constant="50" id="AGn-BJ-9gd"/>
                             <constraint firstItem="j3L-1d-cGf" firstAttribute="trailing" secondItem="KXD-KG-Bkh" secondAttribute="trailing" id="B9x-Tg-F2H"/>
                             <constraint firstItem="KXD-KG-Bkh" firstAttribute="leading" secondItem="9Aw-Y3-HXa" secondAttribute="leading" id="HKy-95-pk1"/>
                             <constraint firstItem="9Aw-Y3-HXa" firstAttribute="top" secondItem="nif-S4-Bxl" secondAttribute="bottom" constant="10" id="JEk-Bd-8Id"/>
-                            <constraint firstItem="aVb-AJ-dxB" firstAttribute="leading" secondItem="W45-jd-KaZ" secondAttribute="leading" constant="15" id="Kx2-MD-60E"/>
+                            <constraint firstItem="aVb-AJ-dxB" firstAttribute="leading" secondItem="W45-jd-KaZ" secondAttribute="leading" constant="20" id="Kx2-MD-60E"/>
                             <constraint firstItem="9Aw-Y3-HXa" firstAttribute="leading" secondItem="nif-S4-Bxl" secondAttribute="leading" id="OAd-VB-khz"/>
                             <constraint firstItem="KXD-KG-Bkh" firstAttribute="top" secondItem="9Aw-Y3-HXa" secondAttribute="bottom" constant="10" id="XN2-ii-gSl"/>
                             <constraint firstItem="9Aw-Y3-HXa" firstAttribute="trailing" secondItem="nif-S4-Bxl" secondAttribute="trailing" id="fok-I4-ADT"/>
